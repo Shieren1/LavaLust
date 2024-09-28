@@ -79,7 +79,7 @@ $config['ENVIRONMENT']             = 'development';
 | WARNING: You MUST set this value!
 |
 */
-$config['base_url'] 				= '';
+$config['base_url'] 				= 'http://localhost:8080/';
 
 /*
 |--------------------------------------------------------------------------
@@ -88,9 +88,9 @@ $config['base_url'] 				= '';
 |
 | If you are using mod_rewrite to remove index.php in the URL set this
 | variable to blank.
-|
+|s
 */
-$config['index_page']               = 'index.php';
+$config['index_page']               = '';
 
 /*
 |--------------------------------------------------------------------------
